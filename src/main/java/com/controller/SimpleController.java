@@ -8,6 +8,6 @@ public class SimpleController {
 
 	@GetMapping(value = "/")
 	public String sayHello() {
-		return "Welcome to Spring boot with Jenking Environment";
+		return "Welcome to Spring boot with Jenking Environment"
 	}
 }
